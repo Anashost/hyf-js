@@ -74,38 +74,52 @@ console.log(type5);
 
 if (type1 === type2) {
     console.log("SAME TYPE");
-}
-
-else {
+} else {
     console.log("not SAME TYPE");
 }
     
 
 if (type1 === type3) {
     console.log("SAME TYPE");
-}
-
-else {
+} else {
     console.log("not SAME TYPE");
 }
 
 if (type1 === type4) {
     console.log("SAME TYPE");
-}
-
-else {
+} else {
     console.log("not SAME TYPE");
 }
 
 if (type1 === type5) {
     console.log("SAME TYPE");
-}
-
-else {
+} else {
     console.log("not SAME TYPE");
 }
 
-//9   // will complete tomorrow
+//9   // the new value of x will be 2
+
+let c = 9 ;
+let s = c % 2 ;
+console.log("the value of s will be: " + s); // s = 1
+
+let g = 53 ;
+let j = g % 3 ;
+console.log("the value of j will be: " + j); // j = 2
 
 
-//10   // will complete tomorrow
+let f = 400 ;
+let v = f % 4 ;
+console.log("the value of v will be: " + v); // v = 0
+
+
+
+//10
+let myArray = ["string" , "another string" , 99];
+console.log(myArray);
+
+if(6/0 === 10/0){
+    console.log("its comparable");
+} else {
+    console.log("its not comparable");
+}
